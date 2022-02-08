@@ -1,0 +1,132 @@
+{
+	"products" : [
+			{
+				"productname":"red chilli 10g pack",
+				"price":"150",
+				"rating":"5",
+				"productid":"s1",
+				"description":"very spicy",
+				"imageUrl":"assets/Products/red_chili.jpg"
+			},
+			{
+				"productname":"green chilli 10g pack",
+				"price":"100",
+				"productid":"s2",
+				"rating":"4.5",
+				"description":"very very spicy",
+				"imageUrl":"assets/Products/green_chili.jpg"
+			},
+			{
+				"productname":"wheat 10g pack",
+				"price":"200",
+				"productid":"s3",
+				"rating":"3.5",
+				"description":"seasonal wheat",
+				"imageUrl":"assets/Products/wheat.jpg"
+			},
+			{
+				"productname":"corn 5kg",
+				"price":"500",
+				"productid":"s4",
+				"rating":"4.0",
+				"description":"corn",
+				"imageUrl":"assets/Products/corn.jpg"
+			},
+			{
+				"productname":"plough",
+				"price":"150",
+				"productid":"h1",
+				"rating":"5",
+				"description":"plough",
+				"imageUrl":"assets/Products/plough.jpg"
+			},
+			{
+				"productname":"sickle",
+				"price":"100",
+				"productid":"h2",
+				"rating":"4.5",
+				"description":"sickle",
+				"imageUrl":"assets/Products/sickle.jpg"
+			},
+			{
+				"productname":"sprayer",
+				"price":"200",
+				"productid":"h3",
+				"rating":"3.5",
+				"description":"sprayer",
+				"imageUrl":"assets/Products/sprayer.jpg"
+			},
+			{
+				"productname":"cutter",
+				"price":"500",
+				"productid":"h4",
+				"rating":"4.0",
+				"description":"cutter",
+				"imageUrl":"assets/Products/cutter.jpg"
+			},
+			{
+				"productname":"ergon 10 kg",
+				"price":"1200",
+				"productid":"p1",
+				"rating":"5",
+				"description":"ergon",
+				"imageUrl":"assets/Products/ergon.jpg"
+			},
+			{
+				"productname":"ishan 10 kg",
+				"price":"100",
+				"productid":"p2",
+				"rating":"4.5",
+				"description":"isshan",
+				"imageUrl":"assets/Products/ishaan.jpg"
+			},
+			{
+				"productname":"samarth 10g pack",
+				"price":"200",
+				"productid":"p3",
+				"rating":"3.5",
+				"description":"samarth",
+				"imageUrl":"assets/Products/samarth.jpg"
+			},
+			{
+				"productname":"solix 5kg",
+				"price":"500",
+				"productid":"p4",
+				"rating":"4.0",
+				"description":"solix",
+				"imageUrl":"assets/Products/solix.jpg"
+			},
+			{
+				"productname":"Ammonium Sulphate 1ltr",
+				"price":"1500",
+				"productid":"f1",
+				"rating":"5",
+				"description":"Ammonium Sulphate",
+				"imageUrl":"assets/Products/ammonium_sulphate.jpg"
+			},
+			{
+				"productname":"Ammonium Chloride",
+				"price":"1000",
+				"productid":"f2",
+				"rating":"3.5",
+				"description":"Ammonium Chloride",
+				"imageUrl":"assets/Products/ammonium_chloride.jpg"
+			},
+			{
+				"productname":"uria 10ltr",
+				"price":"2000",
+				"productid":"f3",
+				"rating":"3.5",
+				"description":"uria",
+				"imageUrl":"assets/Products/uria.jpg"
+			},
+			{
+				"productname":"npk 5kg",
+				"price":"5000",
+				"productid":"f4",
+				"rating":"4.0",
+				"description":"npk",
+				"imageUrl":"assets/Products/npk.jpg"
+			}
+		]
+}
