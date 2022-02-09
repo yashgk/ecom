@@ -2,12 +2,16 @@ import 'dart:async';
 import 'dart:convert';
 
 import 'package:ecom/core/constants/app_colors.dart';
+import 'package:ecom/core/controllers/cart_controller.dart';
 import 'package:ecom/core/model/product_model.dart';
 import 'package:ecom/ui/commonWids/product_tile.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:get/get.dart';
 
 class StorePage extends StatefulWidget {
+  const StorePage({Key? key}) : super(key: key);
+
   @override
   _StorePageState createState() => _StorePageState();
 }
@@ -16,6 +20,7 @@ class _StorePageState extends State<StorePage> {
   List<Product> allproducts = [];
   List<Product> favouriteProds = [];
   bool isLoading = false;
+  CartController cartController = Get.put(CartController());
 
   Future getAllProducts() async {
     setState(() {
@@ -64,8 +69,10 @@ class _StorePageState extends State<StorePage> {
               mainAxisSpacing: 15,
               children: List.generate(allproducts.length, (index) {
                 return ProductTile(
+                  remove: false,
                   product: allproducts[index],
                   update: () {
+                    cartController.addToCart(allproducts[index]);
                     setState(() {});
                   },
                 );
